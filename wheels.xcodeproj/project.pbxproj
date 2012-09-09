@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B569D615FC3B4000CD30A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B569D515FC3B4000CD30A9 /* UIKit.framework */; };
+		19B569D815FC3B4000CD30A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B569D715FC3B4000CD30A9 /* Foundation.framework */; };
+		19B569DA15FC3B4000CD30A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B569D915FC3B4000CD30A9 /* CoreGraphics.framework */; };
+		19B569E015FC3B4000CD30A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B569DE15FC3B4000CD30A9 /* InfoPlist.strings */; };
+		19B569E215FC3B4000CD30A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B569E115FC3B4000CD30A9 /* main.m */; };
+		19B569E615FC3B4000CD30A9 /* wheelsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B569E515FC3B4000CD30A9 /* wheelsAppDelegate.m */; };
+		19B569E915FC3B4000CD30A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B569E715FC3B4000CD30A9 /* MainStoryboard.storyboard */; };
+		19B569EC15FC3B4000CD30A9 /* wheelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B569EB15FC3B4000CD30A9 /* wheelsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19B569D115FC3B4000CD30A9 /* wheels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wheels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B569D515FC3B4000CD30A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19B569D715FC3B4000CD30A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19B569D915FC3B4000CD30A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19B569DD15FC3B4000CD30A9 /* wheels-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wheels-Info.plist"; sourceTree = "<group>"; };
+		19B569DF15FC3B4000CD30A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B569E115FC3B4000CD30A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B569E315FC3B4000CD30A9 /* wheels-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wheels-Prefix.pch"; sourceTree = "<group>"; };
+		19B569E415FC3B4000CD30A9 /* wheelsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wheelsAppDelegate.h; sourceTree = "<group>"; };
+		19B569E515FC3B4000CD30A9 /* wheelsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheelsAppDelegate.m; sourceTree = "<group>"; };
+		19B569E815FC3B4000CD30A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		19B569EA15FC3B4000CD30A9 /* wheelsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wheelsViewController.h; sourceTree = "<group>"; };
+		19B569EB15FC3B4000CD30A9 /* wheelsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheelsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B569CE15FC3B4000CD30A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B569D615FC3B4000CD30A9 /* UIKit.framework in Frameworks */,
+				19B569D815FC3B4000CD30A9 /* Foundation.framework in Frameworks */,
+				19B569DA15FC3B4000CD30A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B569C615FC3B4000CD30A9 = {
+			isa = PBXGroup;
+			children = (
+				19B569DB15FC3B4000CD30A9 /* wheels */,
+				19B569D415FC3B4000CD30A9 /* Frameworks */,
+				19B569D215FC3B4000CD30A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B569D215FC3B4000CD30A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B569D115FC3B4000CD30A9 /* wheels.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B569D415FC3B4000CD30A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B569D515FC3B4000CD30A9 /* UIKit.framework */,
+				19B569D715FC3B4000CD30A9 /* Foundation.framework */,
+				19B569D915FC3B4000CD30A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B569DB15FC3B4000CD30A9 /* wheels */ = {
+			isa = PBXGroup;
+			children = (
+				19B569E415FC3B4000CD30A9 /* wheelsAppDelegate.h */,
+				19B569E515FC3B4000CD30A9 /* wheelsAppDelegate.m */,
+				19B569E715FC3B4000CD30A9 /* MainStoryboard.storyboard */,
+				19B569EA15FC3B4000CD30A9 /* wheelsViewController.h */,
+				19B569EB15FC3B4000CD30A9 /* wheelsViewController.m */,
+				19B569DC15FC3B4000CD30A9 /* Supporting Files */,
+			);
+			path = wheels;
+			sourceTree = "<group>";
+		};
+		19B569DC15FC3B4000CD30A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B569DD15FC3B4000CD30A9 /* wheels-Info.plist */,
+				19B569DE15FC3B4000CD30A9 /* InfoPlist.strings */,
+				19B569E115FC3B4000CD30A9 /* main.m */,
+				19B569E315FC3B4000CD30A9 /* wheels-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B569D015FC3B4000CD30A9 /* wheels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B569EF15FC3B4000CD30A9 /* Build configuration list for PBXNativeTarget "wheels" */;
+			buildPhases = (
+				19B569CD15FC3B4000CD30A9 /* Sources */,
+				19B569CE15FC3B4000CD30A9 /* Frameworks */,
+				19B569CF15FC3B4000CD30A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wheels;
+			productName = wheels;
+			productReference = 19B569D115FC3B4000CD30A9 /* wheels.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B569C815FC3B4000CD30A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = wheels;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ayi Chen";
+			};
+			buildConfigurationList = 19B569CB15FC3B4000CD30A9 /* Build configuration list for PBXProject "wheels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19B569C615FC3B4000CD30A9;
+			productRefGroup = 19B569D215FC3B4000CD30A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B569D015FC3B4000CD30A9 /* wheels */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B569CF15FC3B4000CD30A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B569E015FC3B4000CD30A9 /* InfoPlist.strings in Resources */,
+				19B569E915FC3B4000CD30A9 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B569CD15FC3B4000CD30A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B569E215FC3B4000CD30A9 /* main.m in Sources */,
+				19B569E615FC3B4000CD30A9 /* wheelsAppDelegate.m in Sources */,
+				19B569EC15FC3B4000CD30A9 /* wheelsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19B569DE15FC3B4000CD30A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B569DF15FC3B4000CD30A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19B569E715FC3B4000CD30A9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B569E815FC3B4000CD30A9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B569ED15FC3B4000CD30A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19B569EE15FC3B4000CD30A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B569F015FC3B4000CD30A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wheels/wheels-Prefix.pch";
+				INFOPLIST_FILE = "wheels/wheels-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19B569F115FC3B4000CD30A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wheels/wheels-Prefix.pch";
+				INFOPLIST_FILE = "wheels/wheels-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B569CB15FC3B4000CD30A9 /* Build configuration list for PBXProject "wheels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B569ED15FC3B4000CD30A9 /* Debug */,
+				19B569EE15FC3B4000CD30A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B569EF15FC3B4000CD30A9 /* Build configuration list for PBXNativeTarget "wheels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B569F015FC3B4000CD30A9 /* Debug */,
+				19B569F115FC3B4000CD30A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B569C815FC3B4000CD30A9 /* Project object */;
+}
