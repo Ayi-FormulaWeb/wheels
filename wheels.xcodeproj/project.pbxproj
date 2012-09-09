@@ -16,6 +16,14 @@
 		19B569E915FC3B4000CD30A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B569E715FC3B4000CD30A9 /* MainStoryboard.storyboard */; };
 		19B569EC15FC3B4000CD30A9 /* wheelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B569EB15FC3B4000CD30A9 /* wheelsViewController.m */; };
 		19B569FE15FC66A900CD30A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B569FD15FC66A900CD30A9 /* Parse.framework */; };
+		19B56A0015FC671C00CD30A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B569FF15FC671C00CD30A9 /* MobileCoreServices.framework */; };
+		19B56A0215FC672500CD30A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0115FC672500CD30A9 /* AudioToolbox.framework */; };
+		19B56A0415FC672F00CD30A9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0315FC672F00CD30A9 /* CFNetwork.framework */; };
+		19B56A0615FC673700CD30A9 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0515FC673700CD30A9 /* libz.1.1.3.dylib */; };
+		19B56A0815FC673E00CD30A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0715FC673E00CD30A9 /* Security.framework */; };
+		19B56A0A15FC674500CD30A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0915FC674500CD30A9 /* SystemConfiguration.framework */; };
+		19B56A0C15FC674C00CD30A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0B15FC674C00CD30A9 /* QuartzCore.framework */; };
+		19B56A0E15FC675700CD30A9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0D15FC675700CD30A9 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +41,14 @@
 		19B569EA15FC3B4000CD30A9 /* wheelsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wheelsViewController.h; sourceTree = "<group>"; };
 		19B569EB15FC3B4000CD30A9 /* wheelsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheelsViewController.m; sourceTree = "<group>"; };
 		19B569FD15FC66A900CD30A9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		19B569FF15FC671C00CD30A9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		19B56A0115FC672500CD30A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		19B56A0315FC672F00CD30A9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		19B56A0515FC673700CD30A9 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		19B56A0715FC673E00CD30A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		19B56A0915FC674500CD30A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		19B56A0B15FC674C00CD30A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		19B56A0D15FC675700CD30A9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B56A0E15FC675700CD30A9 /* libsqlite3.0.dylib in Frameworks */,
+				19B56A0C15FC674C00CD30A9 /* QuartzCore.framework in Frameworks */,
+				19B56A0A15FC674500CD30A9 /* SystemConfiguration.framework in Frameworks */,
+				19B56A0815FC673E00CD30A9 /* Security.framework in Frameworks */,
+				19B56A0615FC673700CD30A9 /* libz.1.1.3.dylib in Frameworks */,
+				19B56A0415FC672F00CD30A9 /* CFNetwork.framework in Frameworks */,
+				19B56A0215FC672500CD30A9 /* AudioToolbox.framework in Frameworks */,
+				19B56A0015FC671C00CD30A9 /* MobileCoreServices.framework in Frameworks */,
 				19B569D615FC3B4000CD30A9 /* UIKit.framework in Frameworks */,
 				19B569D815FC3B4000CD30A9 /* Foundation.framework in Frameworks */,
 				19B569DA15FC3B4000CD30A9 /* CoreGraphics.framework in Frameworks */,
@@ -71,6 +95,14 @@
 		19B569D415FC3B4000CD30A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19B56A0D15FC675700CD30A9 /* libsqlite3.0.dylib */,
+				19B56A0B15FC674C00CD30A9 /* QuartzCore.framework */,
+				19B56A0915FC674500CD30A9 /* SystemConfiguration.framework */,
+				19B56A0715FC673E00CD30A9 /* Security.framework */,
+				19B56A0515FC673700CD30A9 /* libz.1.1.3.dylib */,
+				19B56A0315FC672F00CD30A9 /* CFNetwork.framework */,
+				19B56A0115FC672500CD30A9 /* AudioToolbox.framework */,
+				19B569FF15FC671C00CD30A9 /* MobileCoreServices.framework */,
 				19B569FD15FC66A900CD30A9 /* Parse.framework */,
 				19B569D515FC3B4000CD30A9 /* UIKit.framework */,
 				19B569D715FC3B4000CD30A9 /* Foundation.framework */,
