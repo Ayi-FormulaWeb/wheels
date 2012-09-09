@@ -24,6 +24,19 @@
 		19B56A0A15FC674500CD30A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0915FC674500CD30A9 /* SystemConfiguration.framework */; };
 		19B56A0C15FC674C00CD30A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0B15FC674C00CD30A9 /* QuartzCore.framework */; };
 		19B56A0E15FC675700CD30A9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B56A0D15FC675700CD30A9 /* libsqlite3.0.dylib */; };
+		19B56A1215FC693300CD30A9 /* CustomPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B56A1115FC693300CD30A9 /* CustomPagerViewController.m */; };
+		19B56A1515FC69A900CD30A9 /* DefaultSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B56A1415FC69A900CD30A9 /* DefaultSettingsViewController.m */; };
+		19B56A2115FC6AAF00CD30A9 /* Comment01.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1615FC6AAF00CD30A9 /* Comment01.PNG */; };
+		19B56A2215FC6AAF00CD30A9 /* Comment02.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1715FC6AAF00CD30A9 /* Comment02.PNG */; };
+		19B56A2315FC6AAF00CD30A9 /* Comment03.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1815FC6AAF00CD30A9 /* Comment03.PNG */; };
+		19B56A2415FC6AAF00CD30A9 /* Comment04.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1915FC6AAF00CD30A9 /* Comment04.PNG */; };
+		19B56A2515FC6AAF00CD30A9 /* Comment05.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1A15FC6AAF00CD30A9 /* Comment05.PNG */; };
+		19B56A2615FC6AAF00CD30A9 /* button-splash-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1B15FC6AAF00CD30A9 /* button-splash-pressed.png */; };
+		19B56A2715FC6AAF00CD30A9 /* button-splash-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1C15FC6AAF00CD30A9 /* button-splash-pressed@2x.png */; };
+		19B56A2815FC6AAF00CD30A9 /* button-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1D15FC6AAF00CD30A9 /* button-splash.png */; };
+		19B56A2915FC6AAF00CD30A9 /* button-splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1E15FC6AAF00CD30A9 /* button-splash@2x.png */; };
+		19B56A2A15FC6AAF00CD30A9 /* bg-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A1F15FC6AAF00CD30A9 /* bg-splash.png */; };
+		19B56A2B15FC6AAF00CD30A9 /* bg-splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B56A2015FC6AAF00CD30A9 /* bg-splash@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +62,21 @@
 		19B56A0915FC674500CD30A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		19B56A0B15FC674C00CD30A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		19B56A0D15FC675700CD30A9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		19B56A1015FC693300CD30A9 /* CustomPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPagerViewController.h; sourceTree = "<group>"; };
+		19B56A1115FC693300CD30A9 /* CustomPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPagerViewController.m; sourceTree = "<group>"; };
+		19B56A1315FC69A900CD30A9 /* DefaultSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultSettingsViewController.h; sourceTree = "<group>"; };
+		19B56A1415FC69A900CD30A9 /* DefaultSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultSettingsViewController.m; sourceTree = "<group>"; };
+		19B56A1615FC6AAF00CD30A9 /* Comment01.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment01.PNG; sourceTree = "<group>"; };
+		19B56A1715FC6AAF00CD30A9 /* Comment02.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment02.PNG; sourceTree = "<group>"; };
+		19B56A1815FC6AAF00CD30A9 /* Comment03.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment03.PNG; sourceTree = "<group>"; };
+		19B56A1915FC6AAF00CD30A9 /* Comment04.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment04.PNG; sourceTree = "<group>"; };
+		19B56A1A15FC6AAF00CD30A9 /* Comment05.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment05.PNG; sourceTree = "<group>"; };
+		19B56A1B15FC6AAF00CD30A9 /* button-splash-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-splash-pressed.png"; sourceTree = "<group>"; };
+		19B56A1C15FC6AAF00CD30A9 /* button-splash-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-splash-pressed@2x.png"; sourceTree = "<group>"; };
+		19B56A1D15FC6AAF00CD30A9 /* button-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-splash.png"; sourceTree = "<group>"; };
+		19B56A1E15FC6AAF00CD30A9 /* button-splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-splash@2x.png"; sourceTree = "<group>"; };
+		19B56A1F15FC6AAF00CD30A9 /* bg-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-splash.png"; sourceTree = "<group>"; };
+		19B56A2015FC6AAF00CD30A9 /* bg-splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-splash@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +105,6 @@
 		19B569C615FC3B4000CD30A9 = {
 			isa = PBXGroup;
 			children = (
-				19B569FA15FC666C00CD30A9 /* Resources */,
 				19B569DB15FC3B4000CD30A9 /* wheels */,
 				19B569D415FC3B4000CD30A9 /* Frameworks */,
 				19B569D215FC3B4000CD30A9 /* Products */,
@@ -114,6 +141,7 @@
 		19B569DB15FC3B4000CD30A9 /* wheels */ = {
 			isa = PBXGroup;
 			children = (
+				19B569FA15FC666C00CD30A9 /* Resources */,
 				19B56A0F15FC679500CD30A9 /* CustomPagerViewController */,
 				19B569FC15FC667700CD30A9 /* Login and SignUp */,
 				19B569E415FC3B4000CD30A9 /* wheelsAppDelegate.h */,
@@ -140,13 +168,27 @@
 		19B569FA15FC666C00CD30A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				19B56A1615FC6AAF00CD30A9 /* Comment01.PNG */,
+				19B56A1715FC6AAF00CD30A9 /* Comment02.PNG */,
+				19B56A1815FC6AAF00CD30A9 /* Comment03.PNG */,
+				19B56A1915FC6AAF00CD30A9 /* Comment04.PNG */,
+				19B56A1A15FC6AAF00CD30A9 /* Comment05.PNG */,
+				19B56A1B15FC6AAF00CD30A9 /* button-splash-pressed.png */,
+				19B56A1C15FC6AAF00CD30A9 /* button-splash-pressed@2x.png */,
+				19B56A1D15FC6AAF00CD30A9 /* button-splash.png */,
+				19B56A1E15FC6AAF00CD30A9 /* button-splash@2x.png */,
+				19B56A1F15FC6AAF00CD30A9 /* bg-splash.png */,
+				19B56A2015FC6AAF00CD30A9 /* bg-splash@2x.png */,
 			);
 			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		19B569FC15FC667700CD30A9 /* Login and SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				19B56A1315FC69A900CD30A9 /* DefaultSettingsViewController.h */,
+				19B56A1415FC69A900CD30A9 /* DefaultSettingsViewController.m */,
 			);
 			name = "Login and SignUp";
 			sourceTree = "<group>";
@@ -154,6 +196,8 @@
 		19B56A0F15FC679500CD30A9 /* CustomPagerViewController */ = {
 			isa = PBXGroup;
 			children = (
+				19B56A1015FC693300CD30A9 /* CustomPagerViewController.h */,
+				19B56A1115FC693300CD30A9 /* CustomPagerViewController.m */,
 			);
 			name = CustomPagerViewController;
 			sourceTree = "<group>";
@@ -212,6 +256,17 @@
 			files = (
 				19B569E015FC3B4000CD30A9 /* InfoPlist.strings in Resources */,
 				19B569E915FC3B4000CD30A9 /* MainStoryboard.storyboard in Resources */,
+				19B56A2115FC6AAF00CD30A9 /* Comment01.PNG in Resources */,
+				19B56A2215FC6AAF00CD30A9 /* Comment02.PNG in Resources */,
+				19B56A2315FC6AAF00CD30A9 /* Comment03.PNG in Resources */,
+				19B56A2415FC6AAF00CD30A9 /* Comment04.PNG in Resources */,
+				19B56A2515FC6AAF00CD30A9 /* Comment05.PNG in Resources */,
+				19B56A2615FC6AAF00CD30A9 /* button-splash-pressed.png in Resources */,
+				19B56A2715FC6AAF00CD30A9 /* button-splash-pressed@2x.png in Resources */,
+				19B56A2815FC6AAF00CD30A9 /* button-splash.png in Resources */,
+				19B56A2915FC6AAF00CD30A9 /* button-splash@2x.png in Resources */,
+				19B56A2A15FC6AAF00CD30A9 /* bg-splash.png in Resources */,
+				19B56A2B15FC6AAF00CD30A9 /* bg-splash@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +280,8 @@
 				19B569E215FC3B4000CD30A9 /* main.m in Sources */,
 				19B569E615FC3B4000CD30A9 /* wheelsAppDelegate.m in Sources */,
 				19B569EC15FC3B4000CD30A9 /* wheelsViewController.m in Sources */,
+				19B56A1215FC693300CD30A9 /* CustomPagerViewController.m in Sources */,
+				19B56A1515FC69A900CD30A9 /* DefaultSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
