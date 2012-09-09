@@ -12,8 +12,39 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // ****************************************************************************
+    // Fill in with your Parse, Facebook and Twitter credentials:
+    // ****************************************************************************
+    
+    [Parse setApplicationId:@"3saRmgon62p0FYDq2924QZM1S8gKKsFQR11rlfo5"
+                  clientKey:@"Fkjevt5EvrKZWy8CobQaTvWhmn8F70fP8sR3s5Ud"];
+    [PFFacebookUtils initializeWithApplicationId:@"368608519877142"];
+    [PFTwitterUtils initializeWithConsumerKey:@"SZ58sIVblPZPzoHqinkeJg" consumerSecret:@"ANAUJ6cVZIC6HfFBH7IhGfMYu6xmemb9mZx3IGw"];
+    
+    
+    // Set defualt ACLs
+    PFACL *defaultACL = [PFACL ACL];
+    [defaultACL setPublicReadAccess:YES];
+    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
+    
+    //    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[DemoTableViewController alloc] init]];
+    //    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
+}
+
+////////////////////
+//Facebook的登入委託
+////////////////////
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

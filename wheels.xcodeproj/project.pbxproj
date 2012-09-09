@@ -114,6 +114,7 @@
 		19B569DB15FC3B4000CD30A9 /* wheels */ = {
 			isa = PBXGroup;
 			children = (
+				19B56A0F15FC679500CD30A9 /* CustomPagerViewController */,
 				19B569FC15FC667700CD30A9 /* Login and SignUp */,
 				19B569E415FC3B4000CD30A9 /* wheelsAppDelegate.h */,
 				19B569E515FC3B4000CD30A9 /* wheelsAppDelegate.m */,
@@ -148,6 +149,13 @@
 			children = (
 			);
 			name = "Login and SignUp";
+			sourceTree = "<group>";
+		};
+		19B56A0F15FC679500CD30A9 /* CustomPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomPagerViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
