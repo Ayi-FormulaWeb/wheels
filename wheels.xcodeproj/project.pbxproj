@@ -15,6 +15,7 @@
 		19B569E615FC3B4000CD30A9 /* wheelsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B569E515FC3B4000CD30A9 /* wheelsAppDelegate.m */; };
 		19B569E915FC3B4000CD30A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B569E715FC3B4000CD30A9 /* MainStoryboard.storyboard */; };
 		19B569EC15FC3B4000CD30A9 /* wheelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B569EB15FC3B4000CD30A9 /* wheelsViewController.m */; };
+		19B569FE15FC66A900CD30A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B569FD15FC66A900CD30A9 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		19B569E815FC3B4000CD30A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		19B569EA15FC3B4000CD30A9 /* wheelsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wheelsViewController.h; sourceTree = "<group>"; };
 		19B569EB15FC3B4000CD30A9 /* wheelsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheelsViewController.m; sourceTree = "<group>"; };
+		19B569FD15FC66A900CD30A9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 				19B569D615FC3B4000CD30A9 /* UIKit.framework in Frameworks */,
 				19B569D815FC3B4000CD30A9 /* Foundation.framework in Frameworks */,
 				19B569DA15FC3B4000CD30A9 /* CoreGraphics.framework in Frameworks */,
+				19B569FE15FC66A900CD30A9 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 		19B569C615FC3B4000CD30A9 = {
 			isa = PBXGroup;
 			children = (
+				19B569FA15FC666C00CD30A9 /* Resources */,
 				19B569DB15FC3B4000CD30A9 /* wheels */,
 				19B569D415FC3B4000CD30A9 /* Frameworks */,
 				19B569D215FC3B4000CD30A9 /* Products */,
@@ -67,6 +71,7 @@
 		19B569D415FC3B4000CD30A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19B569FD15FC66A900CD30A9 /* Parse.framework */,
 				19B569D515FC3B4000CD30A9 /* UIKit.framework */,
 				19B569D715FC3B4000CD30A9 /* Foundation.framework */,
 				19B569D915FC3B4000CD30A9 /* CoreGraphics.framework */,
@@ -77,6 +82,7 @@
 		19B569DB15FC3B4000CD30A9 /* wheels */ = {
 			isa = PBXGroup;
 			children = (
+				19B569FC15FC667700CD30A9 /* Login and SignUp */,
 				19B569E415FC3B4000CD30A9 /* wheelsAppDelegate.h */,
 				19B569E515FC3B4000CD30A9 /* wheelsAppDelegate.m */,
 				19B569E715FC3B4000CD30A9 /* MainStoryboard.storyboard */,
@@ -96,6 +102,20 @@
 				19B569E315FC3B4000CD30A9 /* wheels-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B569FA15FC666C00CD30A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19B569FC15FC667700CD30A9 /* Login and SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Login and SignUp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +262,10 @@
 		19B569F015FC3B4000CD30A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wheels/wheels-Prefix.pch";
 				INFOPLIST_FILE = "wheels/wheels-Info.plist";
@@ -253,6 +277,10 @@
 		19B569F115FC3B4000CD30A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wheels/wheels-Prefix.pch";
 				INFOPLIST_FILE = "wheels/wheels-Info.plist";
@@ -280,6 +308,7 @@
 				19B569F115FC3B4000CD30A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
